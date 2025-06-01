@@ -1,4 +1,4 @@
-## Approximate inverse mappings in DC resistivity problems
+# Approximate inverse mappings in DC resistivity problems
 
 _Yaoguo Li & Douglas W. Oldenburg_
 
@@ -8,7 +8,7 @@ _Yaoguo Li & Douglas W. Oldenburg_
 
 ## Summary
 
-In an E-SCAN DC resistivity experiment a large amount of common source pole-pole potential data from many sources over a pre-designed survey grid are collected. 
+In an E-SCAN DC resistivity experiment a large amount of common source pole-pole potential data from many sources over a pre-designed survey grid are collected.
 
 ## Citation
 
