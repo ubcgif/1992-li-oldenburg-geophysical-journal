@@ -1,35 +1,34 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  # id: ubcgif-YEAR-AUTHORS-JOURNAL
-  # title: TITLE OF PAPER
-  # description: SHORT DESCRIPTION HERE
+  id: ubcgif-1992-li-oldenburg-gji
+  title: Approximate inverse mappings in DC resistivity problems
+  description: In an E-SCAN DC resistivity experiment a large amount of common source pole-pole potential data from many sources over a pre-designed survey grid are collected.
   authors:
-    # - name: AUTHOR 1
+    - name: Yaoguo Li
     #   email: EMAIL
-    #   corresponding: true
+      corresponding: true
     #   orcid: ORCID
-    #   affiliation:
-    #     id: ubc
-    #     name: Geophysical Inversion Facility, University of British Columbia, Vancouver, British Columbia
-    # - name: Lindsey J. Heagy
-    #   email: lheagy@eoas.ubc.ca
-    #   corresponding: true
-    #   orcid: 0000-0002-1551-5926
-    #   affiliation: ubc
-  # doi: DOI
+      affiliation:
+        id: ubc
+        name: Geophysical Inversion Facility, University of British Columbia, Vancouver, British Columbia
+    - name: Douglas W. Oldenburg
+      email: doug@eoas.ubc.ca
+      orcid: 0000-0002-4327-2124
+      affiliation: ubc
+  doi: 10.1111/j.1365-246X.1992.tb00101.x
   # arxiv: ARXIV
   # github: GITHUB-URL
-  # date: YYYY/MM/DD # date of publication
+  date: 1992/05/02 # date of publication
   # license: CC-BY-4.0  # uncomment this and the line below if open access
   # open_access: true
   venue:
-    # title: JOURNAL NAME
-    # url: JOURNAL URL
+    title: Geophysical Journal International
+    url: https://academic.oup.com/gji/article/109/2/343/639409
   history:
-    # received: YYYY/MM/DD
-    # accepted: YYYY/MM/DD
-    # published: YYYY/MM/DD
+    received: 1991/11/01
+    accepted: 1991/11/11
+    published: 1992/05/02
   keywords:
     # - KEYWORD 1
     # - KEYWORD 2
@@ -45,5 +44,5 @@ site:
   template: article-theme
   actions:
     - title: pdf
-      # url: NAME-OF-PDF.pdf
+      url: Li_1992.pdf
       static: true
